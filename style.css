@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-roboto: "Roboto", serif;
+    --font-libre: "Libre Baskerville", serif;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--font-roboto);
+}
+
+html, body{
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap: 187px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.logo__block{
+
+}
+
+.logo__title{
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #343d33;
+}
+
+.logo__text{
+    font-family: var(--font-roboto);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #333;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item{
+    list-style: none;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #414840;
+}
+
+.nav__item_border{
+    border: 1px;
+    border-color: #343d33;
+}
